@@ -1,0 +1,51 @@
+{
+  "title": "Roboticide",
+  "description": "A level 5, Sci-Fi 4 player adventure compendium module for D&amp;D 5e.",
+  "packs": [
+    {
+      "name": "roboticide",
+      "label": "Operation: Roboticide",
+      "path": "packs/roboticide",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "tile-scroll",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "  ",
+  "download": "  ",
+  "id": "roboticide",
+  "authors": [
+    {
+      "name": "NonchalantWombat",
+      "url": "https://github.com/NonchalantWombat",
+      "discord": "NonchalantWombat",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "version": "1.0.12",
+  "url": "https://github.com/NonchalantWombat/Roboticide"
+}
